@@ -1,0 +1,99 @@
+styles.css:root {
+    --stdmargin: 5rem;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+#logo {
+    position: fixed;
+    width: 70px;
+    top: 2rem;
+    left: var(--stdmargin);
+    
+
+}
+
+#imagesection {
+
+
+
+    position: absolute;
+    width: 108px;
+    height: 40px;
+    left: 648px;
+    top: 150px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 108px;
+    height: 104px;
+
+
+    background-image: url(mark.png);
+
+
+
+}
+
+
+
+#herodescription1 {
+    position: absolute;
+    width: 289px;
+    height: 32px;
+    left: 577px;
+    top: 280px;
+    bottom: -12.5%;
+    font-family: 'josephin sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+}
+
+#herodescription2 {
+    position: absolute;
+    width: 284px;
+    height: 64px;
+    left: 577px;
+    top: 350px;
+    font-family: 'josephine sans';
+    font-style: normal;
+    line-height: 64px;
+    font-weight: 400;
+    font-size: 64px;
+
+
+    color: #2DCD6D;
+
+
+
+
+}
+
+
+
+
+#CTA {
+    position: absolute;
+    width: 400px;
+    height: 96px;
+    left: 500px;
+    top: 420px;
+    border-radius: 22px;
+    background: #000000;
+    font-family: 'kavoon';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}

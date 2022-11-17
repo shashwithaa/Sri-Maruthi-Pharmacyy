@@ -1,0 +1,236 @@
+styless.css
+
+
+:root{
+    --stdMargin:5rem;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+#soapsandshampoosPage{
+    margin: 0 var(--stdMargin);
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(1fr,12);
+}
+
+    /*Hero Section*/
+
+#heroSection{
+    margin: auto 0;
+    color: black;
+    grid-column: 6/-1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#logo{
+    position: fixed;
+    top: 2rem;
+    left: var(--stdMargin);
+    
+    width: 70px;
+}
+
+
+#heroText{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+#heroDescription1{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+    grid-column: 3/6;
+    grid-row: 3/4;
+}
+
+#heroDescription2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+    grid-column: 3/6;
+    grid-row: 5/7;
+}
+
+#heroDescription3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+    grid-column: 6/9;
+    grid-row: 3/4;
+}
+
+#heroDescription4{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color:black;
+    text-transform: capitalize;
+    grid-column: 6/9;
+    grid-row: 5/7;
+}
+
+#heroDescription5{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+    grid-row: 3/4;
+    grid-column: 10/-1;
+}
+
+#heroDescription6{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+    grid-column: 10/-1;
+    grid-row: 5/7;
+}
+
+
+#CTA1{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    
+}
+
+#CTA2{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+#CTA3{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    
+}
+
+#CTA4{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+#CTA5{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+
+}
+#CTA6{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+
+
+#imageSection1{
+    height: 20vh;
+    background-image:url("himalaya.jpeg");
+    background-size: cover;
+    grid-column: 3/6;
+}
+
+#imageSection2{
+    height: 20vh;
+    background-image:url("dove.jpeg");
+    background-size: cover;
+    grid-column: 3/6;
+}
+#imageSection3{
+    height: 20vh;
+    background-image:url("mama.jpeg");
+    background-size: cover;
+    grid-row: 2/5;
+    grid-column: 6/9;
+}
+
+#imageSection4{
+    height: 20vh;
+    background-image:url("niv.jpeg");
+    background-size: cover;
+    grid-column: 6/9;
+    grid-row: 4/6;
+}
+
+#imageSection5{
+    height: 20vh;
+    background-image:url("head.jpeg");
+    background-size: cover;
+    grid-column: 8/10;
+    grid-row: 2/5;
+    grid-column: 10/-1;
+}
+
+#imageSection6{
+    height: 20vh;
+    background-image:url("lifebuoy.jpeg");
+    background-size: cover;
+    grid-column: 8/10;
+    grid-row: 4/6;
+    grid-column: 10/-1;
+}
+
+

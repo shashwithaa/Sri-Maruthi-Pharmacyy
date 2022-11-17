@@ -1,0 +1,133 @@
+style.css
+
+
+:root{
+    --stdMargin:5rem;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+#CategoryPage{
+    margin: 0 var(--stdMargin);
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(1fr,12);
+}
+
+/*Hero Section*/
+
+#heroSection{
+    margin: auto 0;
+    color: black;
+    grid-column: 2/5;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#logo{
+    position: fixed;
+    top: 2rem;
+    left: var(--stdMargin);
+    
+    width: 70px;
+}
+
+#heroText{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    grid-column: 3/7;
+}
+
+
+#heroDescription1{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: gray;
+    text-transform: capitalize;
+    grid-column: 5/9;
+}
+
+#heroDescription2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: gray;
+    text-transform: capitalize;
+    grid-column: 5/9;
+
+}
+
+#heroDescription3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: gray;
+    text-transform: capitalize;
+    grid-column: 5/9;
+
+}
+
+#CTA1{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    grid-column: 5/9;
+
+    
+}
+
+#CTA2{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    grid-column: 5/9;
+
+}
+
+#CTA3{
+    width: 25%;
+    padding: 4px 4px;
+    background: #4200FF;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    grid-column: 5/9;
+
+}
+
+
+
+/*Hero Section End */
+
+
+    
+
